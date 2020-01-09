@@ -112,78 +112,12 @@
         $("document").ready(function () {
             
         });
+        $(document).ready(function() {
+                $('select').material_select();
+              });
+              
+       
 
-//progreso actual
-7
-var currProgress = 0;
-8
-//esta la tarea completa
-9
-var done = false;
-10
-//cantidad total de progreso
-11
-var total = 100;
-12
- 
-13
-//funcion para actualizar el progreso
-14
-function startProgress() {
-15
-//recuperamos el elemento de progreso
-16
-var prBar = document.getElementById(&quot;prog&quot;);
-17
-//get the start button
-18
-var startButt = document.getElementById(&quot;startBtn&quot;);
-19
-//recuperamos el valor del texto
-20
-var val = document.getElementById(&quot;numValue&quot;);
-21
-//deshabilitamos el botón
-22
-startButt.disabled=true;
-
-//actualiza la barra de progreso
-
-prBar.value = currProgress;
-
-//actualizamos el indicador visual con el texto
-
-val.innerHTML = Math.round((currProgress/total)*100)+&quot;%&quot;;
-
-//incrementamos el valor del progreso cada vez que la función se ejecuta
-
-currProgress++;
-
-//comprobamos si hemos terminado
-
-if(currProgress&gt;100) done=true;
-
-// sino hemos terminado, volvemos a llamar a la función después de un tiempo
-
-if(!done)
-
-  setTimeout(&quot;startProgress()&quot;, 100);
-
-//tarea terminada, habilitar el botón y resetear variables
-
-else  
-
-{
-
-  document.getElementById(&quot;startBtn&quot;).disabled = false;
-
-  done = false;
-
-  currProgress = 0;
-
-}
-
-}
 
     </script>
 </body>
