@@ -1,6 +1,7 @@
 #rango{
     border-radius: 2px;
     width: 70%;
+    height: auto;
     background-color: yellow;
 }
 .rango .rango::webkit-rango-thumb{
