@@ -1,17 +1,10 @@
 #rango{
     border-radius: 2px;
-    width: 70%;
-    height: auto;
-    background-color: yellow;
+    width: 70%;;
+    background: yellow;
+    -webkit-appearance: button;
 }
-.rango .rango::webkit-rango-thumb{
-    -webkit-appearance: none;
-    background-color: yellow;
-    border-top-left-radius: 50%;
-    border-top-right-radius: 50%;
-    border-bottom-left-radius: 50%;
-    border-top-right-radius: 50%;
-}
+
 .contenido .slider{
     background-color: yellow;
 }
