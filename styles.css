@@ -16,5 +16,6 @@
     float: left;
 }
 .aceitunas .baconcrispy .pollo .anchos{
+    display: inline;
     float: left;
 }
