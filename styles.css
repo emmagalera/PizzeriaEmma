@@ -1,6 +1,15 @@
 #rango{
     border-radius: 2px;
     width: 70%;
+    background-color: yellow;
+}
+#rango #rango..-wenbkit-slider-thumb{
+    -webkit-appearance: none;
+    background-color: yellow;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    border-bottom-left-radius: 50%;
+    border-top-right-radius: 50%;
 }
 .Mozzarella{
     width: 100%;
