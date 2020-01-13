@@ -33,18 +33,21 @@ h1{
 .grupoImag1, .grupoImag2, .grupoImag3, .grupoImag4{
     display: inline-block;
 }
-img{
+.ingredientes img{
     margin-right: 60px;
 }
 .ingredientes input{
-    margin-left: 30px;
+    margin-left: 60px;
 }
 .ingredientes p{
     margin-left: 30px;
 }
+.pina p, .atun p, .york p,.maiz p, .pollo p{
+    margin-left: 50px;
+}
 aside{
     float: right;
-    margin-top: -660px;
+    margin-top: -960px;
 }
 aside img{
     height: 300px;
