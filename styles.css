@@ -16,6 +16,9 @@
     float: left;
 }
 .aceitunas .baconcrispy .pollo .anchos{
-    display: inline;
+    display: inline-block;
     float: right;
+}
+.grupoImag1, .grupoImag2, .grupoImag3, .grupoImag4{
+    display: block;
 }
