@@ -1,6 +1,8 @@
 body{
-    background-color: rgb(231, 224, 214);
-    color: grey;
+    background-color: rgb(216, 207, 207);
+    color: rgb(161, 154, 154);
+    margin-left: 35px;
+    margin-bottom: 28px;
 }
 h1{
     color:black;
@@ -17,6 +19,7 @@ h1{
     width: 50%;;
     background: yellow;
     -webkit-appearance: button;
+    height: 8px;
 }
 
 .contenido .slider{
@@ -29,4 +32,33 @@ h1{
 
 .grupoImag1, .grupoImag2, .grupoImag3, .grupoImag4{
     display: inline-block;
+}
+img{
+    margin-right: 60px;
+}
+.ingredientes input{
+    margin-left: 30px;
+}
+.ingredientes p{
+    margin-left: 30px;
+}
+aside{
+    float: right;
+    margin-top: -660px;
+}
+aside img{
+    height: 300px;
+    width: 300px;
+}
+aside button{
+    background-color: red;
+    float: right;
+    margin-top: -70px;
+    margin-right: 60px;
+    font-size: larger;
+}
+.money{
+    font-size: 40px;
+    color: black;
+    font-weight: bold;
 }
