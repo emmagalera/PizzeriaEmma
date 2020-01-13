@@ -1,4 +1,17 @@
-
+body{
+    background-color: rgb(231, 224, 214);
+    color: grey;
+}
+h1{
+    color:black;
+}
+.bloqueAzul{
+    background-color: blue;
+    color: white;
+}
+.bloqueAzul h1{
+    color: white;
+}
 #rango{
     border-radius: 2px;
     width: 50%;;
