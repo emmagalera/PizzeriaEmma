@@ -20,5 +20,5 @@
     float: right;
 }
 .grupoImag1, .grupoImag2, .grupoImag3, .grupoImag4{
-    display: block;
+    display: table-row;
 }
